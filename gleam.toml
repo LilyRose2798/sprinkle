@@ -1,0 +1,12 @@
+name = "sprinkle"
+version = "1.0.0"
+
+description = "A simple to use string formatting library"
+licences = ["AGPL-3.0-only"]
+repository = { type = "github", user = "LilyRose2798", repo = "sprinkle" }
+
+[dependencies]
+gleam_stdlib = "~> 0.34 or ~> 1.0"
+
+[dev-dependencies]
+gleeunit = "~> 1.0"
